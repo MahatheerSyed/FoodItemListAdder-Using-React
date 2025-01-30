@@ -1,0 +1,15 @@
+.Container {
+  width: 300px;
+  max-height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.312);
+  border-radius: 5px;
+  padding: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  overflow: auto;
+}
+.Container::-webkit-scrollbar {
+  display: none;
+}

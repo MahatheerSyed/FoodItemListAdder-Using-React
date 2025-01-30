@@ -1,0 +1,36 @@
+.FoodItems {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+  /* background-color: rgba(94, 255, 1, 0.648); */
+}
+button {
+  width: 30px;
+  background-color: red;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 5px;
+  color: white;
+}
+
+button:hover {
+  background-color: transparent;
+  color: black;
+  border: 0.5px solid rgba(0, 0, 0, 0.349);
+}
+
+li {
+  font-size: 8px;
+}
+.itemBought {
+  background-color: greenyellow;
+}

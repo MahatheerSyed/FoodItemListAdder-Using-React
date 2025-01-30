@@ -1,0 +1,16 @@
+.FoodInput {
+  width: 95%;
+  padding: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+input::placeholder {
+  color: rgba(1, 136, 255, 0.7);
+}
